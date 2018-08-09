@@ -1,5 +1,6 @@
 console.log('[From app.js]');
 
+import '../scss/index.scss';
 
 import jQuery from 'jquery';
 
