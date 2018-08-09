@@ -8,7 +8,7 @@ module.exports = {
   entry: {
     app: './src/scripts/app.js',
     projects: './src/scripts/projects.js',
-    vendor: Object.keys(package.dependencies)
+    vendor: Object.keys(package.dependencies),
   },
   output: {
     path: path.join(__dirname, "./dist/"),
